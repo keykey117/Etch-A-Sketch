@@ -2,4 +2,20 @@
   width: 500px;
   height: 500px;
   display: grid;
+  background-color: white;
+}
+
+.flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(90, 72, 232), white);
+}
+.mode {
+  height: 50px;
+}
+.square {
+  user-select: none;
 }
